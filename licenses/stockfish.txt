@@ -1,0 +1,15 @@
+Stockfish (engine/stockfish-19-lite-single.js and engine/stockfish-19-lite-single.wasm)
+
+The chess engine is Stockfish 19 in its WebAssembly build, Stockfish.js 19.0.1 by Nathan Rugg and
+Chess.com (https://github.com/nmrugg/stockfish.js), the "lite, single-threaded" flavour, unmodified,
+as published in the `stockfish` package on npm. The network it uses is by Chris Bao (sscg13).
+
+Stockfish is free software under the GNU General Public License, version 3: the full text is in
+engine/COPYING.txt. Its source code:
+
+  Stockfish.js (the build used here):  https://github.com/nmrugg/stockfish.js/tree/v19.0.1
+  Stockfish itself:                    https://github.com/official-stockfish/Stockfish
+
+The engine runs as a separate program (a web worker); the trainer talks to it only by sending and
+receiving text in the UCI protocol. The trainer's own code is under the MIT licence (LICENSE); the two
+files named above stay under the GPL.

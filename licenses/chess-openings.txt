@@ -1,0 +1,4 @@
+The opening names and their moves (data/book.js, data/openings.js) come from the Lichess chess-openings
+data set, https://github.com/lichess-org/chess-openings, which is in the public domain (CC0 1.0,
+https://creativecommons.org/publicdomain/zero/1.0/). The evaluations beside them were computed for
+this tool with Stockfish.
